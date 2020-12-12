@@ -1,0 +1,20 @@
+import turtle
+turtle.speed(0)
+
+turtle.color("red")
+turtle.begin_fill()
+turtle.setpos(0, 0)
+turtle.setpos(150, 50)
+turtle.setpos(100, 150)
+turtle.setpos(0, 0)
+turtle.end_fill()
+turtle.penup()
+
+turtle.color("blue")
+turtle.begin_fill()
+turtle.setpos(100, 70)
+turtle.pendown()
+turtle.setpos(50, 50)
+turtle.setpos(90, 100)
+turtle.setpos(100, 70)
+turtle.end_fill()
